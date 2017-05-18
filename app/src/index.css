@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: futura, sans-serif;
+}
+h1{
+	color:dodgerblue;
+}
+.item{
+	color:dodgerblue;
+	font-size:1.5em;
+	font-family:helvetica, sans-serif;
+}
+.box{
+	flex-basis:500px;
+	flex-grow:2;
+	margin:1em;
+}
+#app{
+	display:flex;
+	justify-content: space-between;
+	flex-direction:row;
+	flex-wrap: wrap;
+}
