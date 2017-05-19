@@ -17,7 +17,7 @@ class Box extends React.Component{
   handlePress(event){
   if (event.key === 'Enter'){
   var newList = this.state.list;
-   newList.push(this.state.newest)
+   newList.unshift(this.state.newest)
    this.setState({list:newList, newest: ""});
     event.target.value = "";
   var test = JSON.stringify(this.state.list);
