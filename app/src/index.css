@@ -2,14 +2,16 @@ body {
   margin: 0;
   padding: 0;
   font-family: futura, sans-serif;
+  background:#eee;
 }
 h1{
 	color:dodgerblue;
 }
-.item{
+.lines{	
 	color:dodgerblue;
 	font-size:1.5em;
 	font-family:helvetica, sans-serif;
+	
 }
 .box{
 	flex-basis:500px;
@@ -21,4 +23,17 @@ h1{
 	justify-content: space-between;
 	flex-direction:row;
 	flex-wrap: wrap;
+}
+#switch{
+	margin:2em;
+}
+.mini{
+color:slategray;
+float:right;
+font-size:.8em;
+}
+.mini:hover{
+	transform: scale(1.2);
+	transform: rotate(180deg);
+	cursor:pointer;
 }
