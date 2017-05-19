@@ -1,5 +1,5 @@
-<<<<<<< HEAD
-this is a readme.
-=======
-React pros and cons list
->>>>>>> bd05afed55ddbd5b4bf6c30860d53098bfa61aac
+## Quick pros and cons ##
+
+
+----------
+This is a quick little pros and cons list single page app written in React. It uses the browser localStorage API to save your entries even after you leave the page. you can look at it here [enter link description here](http://matthewdavis.co/prosandcons).
